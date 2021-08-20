@@ -1,0 +1,91 @@
+.navbar {
+  background: #ea230c !important;
+}
+.imgBull {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.principleTitle {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.imgNav {
+  width: 100px;
+  height: 50px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+#img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.subtitlePrinciple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+  font-size: 1.1em;
+}
+#headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+#infoNew {
+  padding: 2%;
+  margin-left: 20%;
+  text-align: justify;
+}
+
+@media (max-width: 812px) {
+  #title {
+    text-align: center;
+  }
+  #headline {
+    text-align: center;
+  }
+  #img-caption {
+    width: 90%;
+  }
+  #infoNew {
+    margin-left: 0;
+    margin-right: 8%;
+  }
+}
+
+.phraseNew {
+  margin-top: 2%;
+}
+cite {
+  font-weight: bolder;
+}
+
+.enlaceMas {
+  font-size: 1.2em;
+  text-align: center;
+}
